@@ -1,0 +1,16 @@
+﻿<Project Sdk="WixToolset.Sdk/5.0.0">
+  <ItemGroup>
+    <Content Include="Resources\license.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\top.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="WixToolset.UI.wixext" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MultifactorApiSync\MultifactorApiSync.csproj" />
+  </ItemGroup>
+</Project>
